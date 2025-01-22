@@ -76,7 +76,7 @@
     { tag 🇹🇼 台湾节点, type urltest, outbounds [{all}], filter [{ action include, keywords [🇹🇼TWtw台湾台TaiWan] }] }, url httpwww.gstatic.comgenerate_204, interval 10m, tolerance 50 },
     	{ tag 🇰🇷 韩国节点, type urltest, outbounds [{all}], filter [{ action include, keywords [🇰🇷KRkr韩国韩Korea] }] }, url httpwww.gstatic.comgenerate_204, interval 10m, tolerance 50 },
     { tag 🇯🇵 日本节点, type urltest, outbounds [{all}], filter [{ action include, keywords [🇯🇵JPjp日本日Japan] }] }, url httpwww.gstatic.comgenerate_204, interval 10m, tolerance 50 },
-    	{ tag 🇸🇬 狮城节点, type urltest, outbounds [{all}], filter [{ action include, keywords [🇸🇬SGsg新加坡新Singapore] }] }, url httpwww.gstatic.comgenerate_204, interval 10m, tolerance 50 },
+    { tag 🇸🇬 狮城节点, type urltest, outbounds [{all}], filter [{ action include, keywords [🇸🇬SGsg新加坡新Singapore] }] }, url httpwww.gstatic.comgenerate_204, interval 10m, tolerance 50 },
     { tag 🇺🇲 美国节点, type urltest, outbounds [{all}], filter [{ action include, keywords [🇺🇸USus美国美United States] }, { action exclude, keywords [香港港HKhkHongKong] }] }, url httpwww.gstatic.comgenerate_204, interval 10m, tolerance 50 },
     { "tag": "♻️ 自动选择", "type": "urltest", "outbounds": ["{all}"], "filter": [{ "action": "exclude", "keywords": ["网站|地址|剩余|过期|时间|有效"] }], "url": "http://www.gstatic.com/generate_204", "interval": "10m", "tolerance": 50 },
     { "tag": "GLOBAL", "type": "selector", "outbounds": ["{all}"]},
